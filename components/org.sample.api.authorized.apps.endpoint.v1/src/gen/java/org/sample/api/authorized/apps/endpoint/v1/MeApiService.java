@@ -16,6 +16,14 @@
 
 package org.sample.api.authorized.apps.endpoint.v1;
 
+import org.sample.api.authorized.apps.endpoint.v1.*;
+import org.sample.api.authorized.apps.endpoint.v1.model.*;
+import org.apache.cxf.jaxrs.ext.multipart.Attachment;
+import org.apache.cxf.jaxrs.ext.multipart.Multipart;
+import java.io.InputStream;
+import java.util.List;
+import org.sample.api.authorized.apps.endpoint.v1.model.AuthorizedAppDTO;
+import org.sample.api.authorized.apps.endpoint.v1.model.ErrorDTO;
 import javax.ws.rs.core.Response;
 
 

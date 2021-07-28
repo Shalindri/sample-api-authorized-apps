@@ -17,14 +17,21 @@
 package org.sample.api.authorized.apps.endpoint.v1;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.cxf.jaxrs.ext.multipart.Attachment;
+import org.apache.cxf.jaxrs.ext.multipart.Multipart;
+import java.io.InputStream;
+import java.util.List;
 
 import org.sample.api.authorized.apps.endpoint.v1.model.AuthorizedAppDTO;
 import org.sample.api.authorized.apps.endpoint.v1.model.ErrorDTO;
+import org.sample.api.authorized.apps.endpoint.v1.MeApiService;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import io.swagger.annotations.*;
+
+import javax.validation.constraints.*;
 
 @Path("/me")
 @Api(description = "The me API")

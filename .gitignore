@@ -25,3 +25,7 @@ hs_err_pid*
 .idea
 *.iml
 */target
+/components/org.sample.api.authorized.apps.endpoint.v1/.openapi-generator/
+/components/org.sample.api.authorized.apps.common/target/
+/components/org.sample.api.authorized.apps.endpoint.v1/target/
+/components/org.sample.api.authorized.apps.endpoint.v1/target/

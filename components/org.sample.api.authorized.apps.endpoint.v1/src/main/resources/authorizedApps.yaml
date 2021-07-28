@@ -15,7 +15,7 @@ info:
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 
 servers:
-  - url: 'https://{domain}:{port}/t/{tenant-domain}/api/users/v2'
+  - url: 'https://{domain}:{port}/t/{tenant-domain}/api/users/v1'
     description: The production API server
     variables:
       domain:
