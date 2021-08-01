@@ -21,9 +21,6 @@ servers:
       domain:
         default: localhost
       port:
-        enum:
-          - '9443'
-          - '9444'
         default: '9443'
       tenant-domain:
         default: carbon.super
