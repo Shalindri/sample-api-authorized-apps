@@ -1,13 +1,22 @@
 package org.sample.api.authorized.apps.endpoint.v1;
 
-import io.swagger.annotations.*;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponses;
+import io.swagger.annotations.Authorization;
+import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.sample.api.authorized.apps.endpoint.v1.model.AuthorizedAppDTO;
 import org.sample.api.authorized.apps.endpoint.v1.model.ErrorDTO;
 
 import javax.validation.Valid;
-import javax.ws.rs.*;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.GET;
 import javax.ws.rs.core.Response;
 
 @Path("/me")
